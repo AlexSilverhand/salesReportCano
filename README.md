@@ -1,42 +1,32 @@
-# Video Game Sales Dashboard - Power BI Project
+# Sales Report Dashboard - Cano Comfricsa
 
-This project showcases a Power BI dashboard built using video game sales data. It provides insights into global sales performance, platform popularity, genre trends, and publisher impact over time.
+This project showcases a Power BI dashboard built using real-world sales transaction data from the Cano Comfricsa company. It provides insights into client behavior, product performance, category trends, and seller activity over time.
 
 ## Dataset Overview
 
-The dataset contains information on top-selling video games from various platforms, including:
+The dataset contains transactional records of product sales, including:
 
-- **Game Name**
-- **Platform**
-- **Release Year**
-- **Genre**
-- **Publisher**
-- **Sales by Region**: North America, Europe, Japan, Others
-- **Global Sales**
+- **Vendedor**: Channel or sales entity (e.g. Partner, Direct)
+- **Cliente**: The buyer of the product
+- **Comercial**: Salesperson responsible for the transaction
+- **Desde**: Origin or branch where the sale was made
+- **Fecha**: Timestamp of the sale
+- **Producto**: Product code
+- **Categoría**: Type of product (e.g. Rotor, Balata)
 
-Source file: `Ventas_Videojuegos.xlsx`
-
-## Key Features
-
-- **Top-selling games** by global sales
-- **Sales trends** by year and genre
-- **Platform performance** comparison
-- **Regional analysis** of video game sales
-- Interactive filters by platform, publisher, genre, and year
+Source file: `salesReport.xlsx`
 
 ## Insights Discovered
 
-- Nintendo dominates global sales with multiple entries in the top-selling games.
-- Sports and platformer genres are historically the most profitable.
-- The Wii and NES platforms had significant market impact in their peak years.
-- North America consistently leads in video game consumption.
-
+- Certain clients consistently purchase specific categories like "Balata" or "Rotor".
+- Rodolfo Macias and Aldo Morones appear as the top-performing sales representatives.
+- Sales concentrate on a few key clients, indicating potential for loyalty programs.
 
 ## Files
 
-- `Ventas_Videojuegos.xlsx`: Dataset used for analysis
-- `videoGamesSales.pbix`: Power BI file
-- `screenshot`: gamesSales.png
+- `salesReport.xlsx`: Dataset used for analysis
+- `salesDashboard.pbix`: Power BI report file
+- `screenshots`: screenshots folder
 
 ## Dashboard Preview
 ![Preview](screenshots/salesReport1.png)
